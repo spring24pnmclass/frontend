@@ -36,6 +36,6 @@
 | Name :                                         | Status:     |
 | ---------------------------------------------- | ----------- |
 | Jonathan                                       | DONE        |
-| Joshua                                         |             |
+| Joshua                                         | DONE        |
 | Natalie                                        | DONE        |
 | Mahek                                          | DONE        |
