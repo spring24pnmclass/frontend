@@ -37,5 +37,5 @@
 | ---------------------------------------------- | ----------- |
 | Jonathan                                       | DONE        |
 | Joshua                                         |             |
-| Natalie                                        |             |
+| Natalie                                        | DONE        |
 | Mahek                                          |             |
