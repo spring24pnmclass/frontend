@@ -11,7 +11,7 @@
 - Jonathan Wu
 - Joshua Hsieh
 - Mahek Kothari
-- Natalie Tran
+- Natalie Tran 
 
 
 ## Current Tasks <a name="current-tasks"></a>
@@ -38,4 +38,4 @@
 | Jonathan                                       | DONE        |
 | Joshua                                         |             |
 | Natalie                                        | DONE        |
-| Mahek                                          |             |
+| Mahek                                          | DONE        |
