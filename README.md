@@ -10,8 +10,9 @@
 
 - Jonathan Wu
 - Joshua Hsieh
-- Natalie Tran
 - Mahek Kothari
+- Natalie Tran
+
 
 ## Current Tasks <a name="current-tasks"></a>
 
