@@ -1,18 +1,17 @@
 # FRONTEND COMMITTEE
 # Table of Contents
 1. [Team Members](#team-members)
-2. [Page Distribution] (#page-distribution)
-3. [Current Tasks](#current-tasks)
-4. [Libraries](#libraries)
-5. [Resources](#resources)
-6. [Git Branching](#git-branching)
+2. [Current Tasks](#current-tasks)
+3. [Libraries](#libraries)
+4. [Resources](#resources)
+5. [Git Branching](#git-branching)
 
 ## Team Members <a name="team-members"></a>
 
-- Jonathan Wu
-- Joshua Hsieh
-- Mahek Kothari
-- Natalie Tran 
+- Jonathan Wu (Google Maps API)
+- Joshua Hsieh  (Location page)
+- Mahek Kothari (About page)
+- Natalie Tran  (Order page)
 
 ## Current Tasks <a name="current-tasks"></a>
 
