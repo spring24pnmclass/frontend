@@ -1,108 +1,50 @@
 import React from "react";
+import "../About.css";
+import pnmclasspic from "../../assets/pnmclasspic.png";
 
 export const About = () => {
   return (
-    <>
-      <h1>About</h1>
-      <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt
-        itaque, perferendis necessitatibus corrupti ea magni voluptatibus est
-        ipsa. Nulla praesentium dolore eos alias incidunt, odio et eaque, sunt
-        vitae corporis animi, itaque architecto. Sunt minima nostrum fugiat
-        quibusdam voluptate dolore illo cupiditate quam odio sequi. Consequatur
-        tempora ullam, ipsam molestias dolor dolores tempore. Molestias, error
-        porro tenetur delectus numquam animi aut quod consequuntur? Dolor sequi
-        quisquam ex, eaque explicabo, labore maxime veniam voluptas enim
-        recusandae architecto est voluptates optio libero officiis consectetur
-        possimus voluptate ipsam alias velit veritatis reprehenderit
-        repudiandae. Ullam praesentium inventore minima eius dolorem omnis fugit
-        facilis.
+    <div id="root">
+      {/* Content Section */}
+      <div id="content">
+        {/* Objective Box */}
+        <div className="box">
+          <h1>Objective:</h1>
+          <p>Create a robot that moves straight down 7th Street of San Jose State University and stops if it detects an obstacle.</p>
+          <h1>Purpose:</h1>
+          <p>A problem at San Jose State University is the distance required to travel to acquire food from the Student Union to the dorms. To prevent students from going hungry, the Prospective New Members of San Jose State University Theta Tau Professional Engineering Fraternity decided to create a robot that would be able to deliver items across 7th Street.</p>
+        </div>
+        <div class="box_3JAMv loadMore_bVOpc">
+           <div class="scroller_dt8Fd">
+           </div>
+           </div>
+                      
+        {/* Horizontal Box */}
+        <div className="horizontal-box1">
+        <br>
+          </br>
+          <h1>Meet the Team</h1>
+        </div>
+
+        {/* Image of PNM Class */}
+        <div className="pnm-class-container">
+          <img src={pnmclasspic} alt="PNM Class" className="pnm-class-image" />
+        </div>
+
+        {/* Second Box */}
+        <div className="other-div">
+          <p>The To-Go Bot Team consists of the Spring 2024 Prospective New Member Class of San Jose State University Theta Tau Professional Fraternity.</p>
+          <br />
+          <h3>Frontend:</h3>
+          <p>Jonathan Wu, Joshua Hsieh, Natalie Tran, Mahek Kothari</p>
+          <h3>Pathfinding:</h3>
+          <p>Duy Dang, Albert Chan, Athish Kumar, Michael Hamaty, Timmy Chen</p>
+          <h3>Hardware:</h3>
+          <p>Alex Dang, Helena Teung-Ouk, Kylie Lam, Luke Gwimm</p>
+          <h3>Electrical:</h3>
+          <p>Hari Kotamsetti, Huy Duong, Noah Bonifacio, Sachi Kelkar, Spandan Kotakotta</p>
+        </div>
       </div>
-      <br />
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-        libero laboriosam quia totam, ducimus dolorum velit voluptates ipsam ad
-        labore repellendus! Reprehenderit corporis labore totam est quas natus
-        non quis? Atque porro obcaecati error hic perspiciatis itaque
-        reprehenderit ut aperiam, ipsa, repellendus voluptatum, architecto sint
-        delectus. Dolorem, officia nostrum? Quae similique eveniet, animi
-        laborum impedit commodi, deleniti cum adipisci atque quidem culpa
-        incidunt placeat id rem dolorum sit eligendi sapiente ea sed, voluptate
-        voluptates minima pariatur ipsam delectus. Inventore deserunt
-        exercitationem repudiandae ducimus nihil, assumenda vel ex optio aut
-        voluptates nostrum dolor beatae in voluptatem. Adipisci excepturi
-        nesciunt ab soluta.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-    </>
+    </div>
   );
 };
