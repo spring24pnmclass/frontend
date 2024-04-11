@@ -1,0 +1,62 @@
+/* Base styles */
+.body {
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    background-color: #F5EBE0; /* Set the background color for the entire page */
+}
+
+/* Header styles */
+.header {
+    margin-bottom: 10px;
+    background-color: #F5EBE0; /* maybe take out */
+}
+
+/* may or may not need */
+/* #header {
+    height: 2cm;
+    background-color: #D5BDAF;
+} */
+
+/* Content styles */
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: 0 auto; */
+    /* max-width: 75%; */
+    padding-top: 20px;
+    background-color: #F5EBE0;
+     /* Remove this line from #content */
+}
+
+/* Common box styles */
+.box,
+.div,
+.horizontal-box {
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 65%;
+    text-align: left;
+    background-color: #D6CCC2;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+/* Specific box styles */
+.box {
+    margin-left: 20%;
+}
+
+.div {
+    margin-left: 20%;
+    line-height: 1.4;
+}
+
+.horizontal-box {
+    padding: 15px;
+    margin-top: 0px;
+    margin-left: 34%; /* hardcoded atm */
+    width: 40%;
+    text-align: center;
+}
