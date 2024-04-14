@@ -53,20 +53,24 @@ export default function Location() {
   
 
   return (
-    <APIProvider apiKey='API-KEY'> {/* Add to vercel environment later */}
-      <div style={{height: "100vh", width: "100%"}}>
-        <div className="box">
-          <h1>Your Order Status:</h1>
-          <p>On the way . . . </p>
-          <button onClick={fetchRandomCoordinates} className="refresh-button">Refresh</button>
-        </div>
-        <Map 
-          zoom={5}
-          center={position}
-        >
-          <Marker position={position} />
-        </Map>
+    <div className="container">
+      <div className="box">
+        <h1>Your Order Status:</h1>
+        <p>On the way . . . </p>
+        <button onClick={fetchRandomCoordinates} className="refresh-button">Refresh</button>
       </div>
-    </APIProvider>
+      <div className="map-container">
+        <APIProvider apiKey='API-KEY'> {/* Add to vercel environment later */}
+          <div style={{ height: "100%", width: "100%" }}>
+            <Map
+              zoom={5}
+              center={position}
+            >
+              <Marker position={position} />
+            </Map>
+          </div>
+        </APIProvider>
+      </div>
+    </div>
   );
 }

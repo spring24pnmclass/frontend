@@ -5,39 +5,19 @@
     background-color: #F5EBE0; /* Set the background color for the entire page */
 }
 
-/* Content styles */
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /* margin: 0 auto; */
-    /* max-width: 75%; */
-    padding-top: 30px;
-    background-color: #F5EBE0;
-    /* Remove this line from #content */
-}
-
 /* Common box styles */
-.box,
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 10px; /* Add margin to the sides */
+  }
 .div,
-/* For objective & Purpose Box */
-.horizontal-box {
-    padding: 50px;
-    margin-bottom: 40px;
-    margin-top: 60px;
-    width: 40%;
-    text-align: left;
-    background-color: #D6CCC2;
-    border-radius: 10px;
-    line-height: 1.7;
-    box-shadow: 10px 10px rgb(176, 156, 147);
-}
-
-/* For objective & Purpose Box */
-/* Specific box styles */
-.box {
-    margin-left: 10%;
-}
 
 /* Description Box */
 .div {
@@ -47,77 +27,19 @@
     background-color: #D6CCC2;
     width: 40%;
     text-align: left;
-    margin-left: 40%;
+    margin-left: 32%;
     line-height: 1.7;
 
-}
-
-/* Meet the team box */
-.horizontal-box1 {
-    padding: auto 0x;
-    margin-top: 20px; /* Adjusted margin */
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
-    width: 65%; /* Adjusted width */
-    text-align: center;
-    border-radius: 10px;
-    background-color: #D6CCC2;
-}
-
-.pnm-class-container {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center items vertically */
-}
-
-.pnm-class-image {
-    border-radius: 10px;
-    padding: 40px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    width: 100%; 
-    margin-left: 10%;
-
-}
-
-.other-div {
-    padding: 40px; 
-    background-color: #D6CCC2; 
-    border-radius: 10px; 
-    margin-left: 50%; 
-    width: 40%;
-    text-align: left;
-    line-height: 1.7;
-    margin-top: -400px; 
-    margin-bottom: 50px;
-    box-shadow: 10px 10px rgb(176, 156, 147);
-
-}
-/* Scrollbar container */
-.box_3JAMv {
-    padding: 10px 11px;
-    height: 50px; /* Adjusted height */
-    width: 30px; /* Adjusted width */
-    margin-top: 5px; 
-    margin-left: 130px;
-    border: 2px solid #7c235d5e;
-    border-radius: 25px;
-    overflow-y: auto; /* Enable vertical scrolling */
-}
-/* Scrollbar */
-.box_3JAMv .scroller_dt8Fd {
-    width: 3px;
-    height: 90%; /* Adjusted height */
-    border-radius: 25%;
-    background: linear-gradient(to bottom, #7c235d5e 0%, transparent 50%); /* Fading effect */
-    animation: scrollAnimation 1.5s infinite cubic-bezier(.15,.41,.69,.94);
 }
 
 .map-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 100%;
+  height: 750px; /* Adjust height as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+  flex: 1;
+}
 
 .refresh-button {
   background-color: blue;
@@ -125,17 +47,3 @@
   padding: 10px;
   border-radius: 5px;
 }
-
-@keyframes scrollAnimation {
-    0% {
-        transform: translateY(0); /* Start from the top */
-    }
-    80% {
-        opacity: 5; /* Fade out towards the middle */
-    }
-    100% {
-        opacity: 0; 
-        transform: translateY(90%); /* Restart from the top */
-    }
-}
-

@@ -15,21 +15,12 @@ export const Order = () => {
     <h2>At the press of a button, the autonomous robot will deliver food to your location!</h2>
   </div>
 
-  <Link to ="/location"> 
-    <h2>Order</h2> 
+  <Link to="/location">
+    <button className="button">
+        <h2>Order</h2>
+    </button>
   </Link>
-  
-  <button className = "button" onClick={handleClick}>
-    <h2>Order</h2>
-  </button>
 
-  {/* <div className = "placeholder-box">
-    <h2>           </h2>
-    <br></br>
-    <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-    <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-    <br></br><br></br><br></br><br></br><br></br>
-  </div> */}
   </div> 
   </div>
   );
