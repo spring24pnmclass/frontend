@@ -92,36 +92,3 @@
     box-shadow: 10px 10px rgb(176, 156, 147);
 
 }
-/* Scrollbar container */
-.box_3JAMv {
-    padding: 10px 11px;
-    height: 50px; /* Adjusted height */
-    width: 30px; /* Adjusted width */
-    margin-top: 5px; 
-    margin-left: 130px;
-    border: 2px solid #7c235d5e;
-    border-radius: 25px;
-    overflow-y: auto; /* Enable vertical scrolling */
-}
-/* Scrollbar */
-.box_3JAMv .scroller_dt8Fd {
-    width: 3px;
-    height: 90%; /* Adjusted height */
-    border-radius: 25%;
-    background: linear-gradient(to bottom, #7c235d5e 0%, transparent 50%); /* Fading effect */
-    animation: scrollAnimation 1.5s infinite cubic-bezier(.15,.41,.69,.94);
-}
-
-@keyframes scrollAnimation {
-    0% {
-        transform: translateY(0); /* Start from the top */
-    }
-    80% {
-        opacity: 5; /* Fade out towards the middle */
-    }
-    100% {
-        opacity: 0; 
-        transform: translateY(90%); /* Restart from the top */
-    }
-}
-
