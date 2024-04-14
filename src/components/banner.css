@@ -1,0 +1,68 @@
+.banner {
+    background-color: #efeae5;
+    color: rgb(73, 70, 70);
+    padding: 150px; /* Increase padding for larger banner */
+    display: flex;
+    align-items: center;
+    position: relative; /* Add position relative to contain absolute positioned elements */
+  }
+  
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-right: 50%;
+  }
+  
+  .banner-text {
+    flex-grow: 1;
+  }
+ 
+  
+  .banner-text h2 {
+    font-size: 48px; /* Increase font size for heading */
+    margin-bottom: 30px; /* Adjust margin */
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;  
+}
+  
+  .banner-text p {
+    font-size: 24px; /* Increase font size for paragraph */
+    font-family:"Gill Sans", sans-serif;
+    font-weight: 300;
+  }
+  
+  .box_3JAMv {
+    padding: 10px 11px;
+    height: 50px; /* Adjusted height */
+    width: 30px; /* Adjusted width */
+    margin-top: 60px; /* Adjusted margin-top */
+    margin-left: -5px;
+    border: 2px solid #7c235d5e;
+    border-radius: 25px;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Scrollbar */
+.box_3JAMv .scroller_dt8Fd {
+    width: 3px;
+    height: 90%; /* Adjusted height */
+    border-radius: 25%;
+    background: linear-gradient(to bottom, #7c235d5e 0%, transparent 50%); /* Fading effect */
+    animation: scrollAnimation 1.5s infinite cubic-bezier(.15,.41,.69,.94);
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0); /* Start from the top */
+    }
+    80% {
+        opacity: 5; /* Fade out towards the middle */
+    }
+    100% {
+        opacity: 0; 
+        transform: translateY(90%); /* Restart from the top */
+    }
+}
+  
