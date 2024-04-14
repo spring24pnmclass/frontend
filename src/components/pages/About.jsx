@@ -14,10 +14,6 @@ export const About = () => {
           <h1>Purpose:</h1>
           <p>A problem at San Jose State University is the distance required to travel to acquire food from the Student Union to the dorms. To prevent students from going hungry, the Prospective New Members of San Jose State University Theta Tau Professional Engineering Fraternity decided to create a robot that would be able to deliver items across 7th Street.</p>
         </div>
-        <div class="box_3JAMv loadMore_bVOpc">
-           <div class="scroller_dt8Fd">
-           </div>
-           </div>
                       
         {/* Horizontal Box */}
         <div className="horizontal-box1">
