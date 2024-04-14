@@ -2,7 +2,7 @@
 .body {
     text-align: center;
     font-family: 'Epilogue', sans-serif;
-    background-color: #F5EBE0; /* Set the background color for the entire page */
+    background-color: #F5EBE0; 
 }
 
 /* Content styles */
@@ -30,13 +30,14 @@
     background-color: #D6CCC2;
     border-radius: 10px;
     line-height: 1.7;
-    box-shadow: 10px 10px rgb(176, 156, 147);
+    box-shadow: 10px 10px 10px rgb(176, 156, 147);
 }
 
-/* For objective & Purpose Box */
+/* Objective & Purpose Box */
 /* Specific box styles */
 .box {
     margin-left: 10%;
+
 }
 
 /* Description Box */
@@ -76,7 +77,7 @@
     margin-top: 20px;
     width: 100%; 
     margin-left: 10%;
-
+    border: 3px solid red;
 }
 
 .other-div {
@@ -89,39 +90,43 @@
     line-height: 1.7;
     margin-top: -400px; 
     margin-bottom: 50px;
-    box-shadow: 10px 10px rgb(176, 156, 147);
+    box-shadow: 10px 10px 10px rgb(176, 156, 147);
 
 }
-/* Scrollbar container */
-.box_3JAMv {
-    padding: 10px 11px;
-    height: 50px; /* Adjusted height */
-    width: 30px; /* Adjusted width */
-    margin-top: 5px; 
-    margin-left: 130px;
-    border: 2px solid #7c235d5e;
-    border-radius: 25px;
-    overflow-y: auto; /* Enable vertical scrolling */
-}
-/* Scrollbar */
-.box_3JAMv .scroller_dt8Fd {
-    width: 3px;
-    height: 90%; /* Adjusted height */
-    border-radius: 25%;
-    background: linear-gradient(to bottom, #7c235d5e 0%, transparent 50%); /* Fading effect */
-    animation: scrollAnimation 1.5s infinite cubic-bezier(.15,.41,.69,.94);
+
+.new-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+    align-items: center;
 }
 
-@keyframes scrollAnimation {
-    0% {
-        transform: translateY(0); /* Start from the top */
-    }
-    80% {
-        opacity: 5; /* Fade out towards the middle */
-    }
-    100% {
-        opacity: 0; 
-        transform: translateY(90%); /* Restart from the top */
-    }
+.hor-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
 }
 
+.ppl {
+    text-align: left;
+    width: 40%;
+    padding: 40px;
+    margin-bottom: -5%;
+    margin-top: 5%;
+    background-color: #D6CCC2;
+    text-align: left;
+    margin-left: -5%;
+    line-height: 1.7;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 10px rgb(176, 156, 147);
+
+
+}
+
+.img {
+    border-radius: 10px;
+
+}
