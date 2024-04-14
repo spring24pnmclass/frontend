@@ -1,0 +1,62 @@
+/* Base styles */
+body {
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    color: #081F5C;
+    background-color: #7096D1; /* Set the background color for the entire page */
+}
+
+h1 {
+    color: #081F5C;
+    margin-bottom: 20px; 
+}
+
+p {
+    color: #242e47;
+}
+
+.description-box {
+    padding: 10px;
+    margin-top: 600px;
+    margin-left: calc((100% - 60%) / 2); /* Calculate the margin dynamically */
+    width: 60%; /* Adjusted width */
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F2F0DE;
+}
+
+.order-box {
+    padding: 10px;
+    margin-top: -150px;
+    margin-left: calc((100% - 15%)/2); /* Calculate the margin dynamically */
+    width: 15%; /* Adjusted width */
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F2F0DE;
+}
+
+.placeholder-box {
+    padding: 10px;
+    margin-top: -500px;
+    margin-left: calc((100% - 50%)/2); /* Calculate the margin dynamically */
+    width: 50%; /* Adjusted width */
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F2F0DE;
+}
+
+.button {
+    padding: 10px;
+    margin-top: -150px;
+    margin-left: calc((100% - 10%)/2); /* Calculate the margin dynamically */
+    width: 10%; /* Adjusted width */
+    text-align: center;
+    border-radius: 10px;
+    background-color: #334EAC;
+    cursor: pointer;
+    color: #ffffff; 
+    transition: background-color 0.3s; 
+}
+.button:hover {
+    background-color: #E7C3E0; 
+}
