@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-# react-navbar
-=======
 # FRONTEND COMMITTEE
 # Table of Contents
 1. [Team Members](#team-members)
@@ -44,4 +41,3 @@
 | Joshua                                         | DONE        |
 | Natalie                                        | DONE        |
 | Mahek                                          | DONE        |
->>>>>>> Stashed changes
