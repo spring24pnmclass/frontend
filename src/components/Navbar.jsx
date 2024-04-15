@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        To-Go Bot
+        TogoBot
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
