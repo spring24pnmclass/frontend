@@ -1,17 +1,22 @@
-import React from "react";
-import { useState } from 'react';
+import React, { useState } from "react";
 import "../Location.css";
 import {
   APIProvider,
   Map,
   Marker
-} from "@vis.gl/react-google-maps"
+} from "@vis.gl/react-google-maps";
 
 export default function Location() {
   const [position, setPosition] = useState({ lat: 37.33452148042106, lng: -121.88072672513455 });
+  const [currentTime, setCurrentTime] = useState(null);
 
   const fetchRandomCoordinates = async () => {
     try {
+      // Get the current time
+      const time = new Date().toLocaleTimeString();
+      setCurrentTime(time);
+
+      // Fetch random coordinates
       const response = await fetch('https://api.random.org/json-rpc/2/invoke', {
         method: 'POST',
         headers: {
@@ -50,19 +55,18 @@ export default function Location() {
   const isValidCoordinates = (lat, lng) => {
     return lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180;
   };
-  
 
   return (
     <div className="container">
       <div className="left-column">
         <div className="box">
-          <h1>Your Order Status:</h1>
+          <h1>Order Status:</h1>
           <p>On the way . . . </p>
           <button onClick={fetchRandomCoordinates} className="refresh-button">Refresh</button>
         </div>
-        <div className="column-box"> {/* New div for the column box */}
-          <h2>New Box Title:</h2>
-          <p>This is some content in the new box.</p>
+        <div className="column-box">
+          <h2>Last Refreshed:</h2>
+          <p>{currentTime}</p>
         </div>
       </div>
       <div className="right-column">
@@ -81,6 +85,4 @@ export default function Location() {
       </div>
     </div>
   );
-  
-  
 }

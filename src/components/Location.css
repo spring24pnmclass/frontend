@@ -31,6 +31,12 @@
   margin-right: 20%;
   box-shadow: 10px 10px 10px #b8bdc3;
   border-radius: 10px;
+  font-size: 24px;
+}
+#root > div > div > div.left-column > div.box > h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #374375;
+  font-weight: 500px;
 }
 
 .column-box {
@@ -45,6 +51,7 @@
   line-height: 1.7;
   box-shadow: 10px 10px 10px #b8bdc3;
   border-radius: 10px;
+  font-size: 24px;
 }
 
 
