@@ -8,14 +8,23 @@ export const About = () => {
     <div id="root">
       {/* Content Section */}
       <div id="content">
-        {/* Objective Box */}
-        <div className="box">
-          <h1>Objective:</h1>
-          <p>Create a robot that moves straight down 7th Street of San Jose State University and stops if it detects an obstacle.</p>
-          <h1>Purpose:</h1>
+        {/* Title */}
+        <div className="title">
+          <h2>Our Mission</h2>
+        </div>
+        
+        {/* Objective and Purpose */}
+        <div className="objective-purpose">
           <p>A problem at San Jose State University is the distance required to travel to acquire food from the Student Union to the dorms. To prevent students from going hungry, the Prospective New Members of San Jose State University Theta Tau Professional Engineering Fraternity decided to create a robot that would be able to deliver items across 7th Street.</p>
         </div>
+
+        <div className="temp-robot-image">
+        <img src={tempRobot} alt="Temp Robot Pic" className="temp-robot-image" />
+        </div>
                       
+        {/* Horizontal line */}
+        <hr className="line" />
+        
         {/* Powered by People */}
         <div className="powered-by">
           <h2>Powered by People</h2>
@@ -45,4 +54,3 @@ export const About = () => {
     </div>
   );
 };
-
