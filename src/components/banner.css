@@ -52,3 +52,36 @@
   font-weight: 350;
   color: #60626a; /* Might need adjustment for visibility */
 }
+
+.box_3JAMv {
+  padding: 10px 11px;
+  height: 50px;
+  width: 30px;
+  margin-top: 1000px; /* Move the scrollbar down */
+  margin-left: -10px; /* Move the scrollbar to the left */
+  border: 2px solid #aa78985e;
+  border-radius: 25px;
+  overflow-y: auto;
+}
+
+/* Scrollbar */
+.box_3JAMv .scroller_dt8Fd {
+  width: 3px;
+  height: 90%; /* Adjusted height */
+  border-radius: 25%;
+  background: linear-gradient(to bottom, #7c235d5e 0%, transparent 50%); /* Fading effect */
+  animation: scrollAnimation 1.5s infinite cubic-bezier(.15,.41,.69,.94);
+}
+
+@keyframes scrollAnimation {
+  0% {
+      transform: translateY(0); /* Start from the top */
+  }
+  80% {
+      opacity: 5; /* Fade out towards the middle */
+  }
+  100% {
+      opacity: 0; 
+      transform: translateY(90%); /* Restart from the top */
+  }
+}
