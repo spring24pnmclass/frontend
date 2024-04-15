@@ -2,20 +2,30 @@
 .body {
     text-align: center;
     font-family: 'Epilogue', sans-serif;
-    background-color: #F5EBE0; /* Set the background color for the entire page */
+    background-color: #fdfbf5;
 }
 
 /* Content styles */
 #content {
     display: flex;
+    text-align: center;
+    align-items: center; 
     flex-direction: column;
-    align-items: flex-start;
     /* margin: 0 auto; */
     /* max-width: 75%; */
     padding-top: 30px;
-    background-color: #F5EBE0;
-    /* Remove this line from #content */
+    color: #374375;
+    background-color: #fdfbf5;
 }
+
+/* Title styles */
+.title {
+    font-size: 10px; /* Increase font size */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add space below title */
+
+}
+
 
 /* Common box styles */
 .box,
@@ -24,71 +34,134 @@
 .horizontal-box {
     padding: 50px;
     margin-bottom: 40px;
-    margin-top: 60px;
+    margin-top: 20px; /* Decrease top margin */
     width: 40%;
     text-align: left;
-    background-color: #D6CCC2;
+    color: #374375;
+    background-color: #dee8f5;
     border-radius: 10px;
     line-height: 1.7;
-    box-shadow: 10px 10px rgb(176, 156, 147);
+    box-shadow: 10px 10px 10px #b8bdc3;
 }
 
 /* For objective & Purpose Box */
 /* Specific box styles */
 .box {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 /* Description Box */
 .div {
     padding: 40px;
     margin-bottom: 30px;
-    margin-top: 50px;
     background-color: #D6CCC2;
     width: 40%;
     text-align: left;
     margin-left: 40%;
     line-height: 1.7;
+}
+
+/* Powered by People */
+.powered-by {
+    font-size: 30px; /* Increase font size */
+    margin-top: 40px;
+    margin-bottom: 5px; /* Add space below title */
+}
+
+.horizontal-box1 {
+    padding: auto 0x;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: center;
+    border-radius: 10px;
+    color: #374375;
+}
+#content > div.title > h2 {
+    font-family: 'Times New Roman', sans-serif;
+    color: #374375;
+    font-size: 50px; /* Decrease font size for shorter letters */
+    line-height: .5; /* Adjust line height if needed */
+    margin-top: 10%;
+}
+
+#content > div.objective-purpose > p {
+   font-size: 17px; /* Decrease font size for paragraph */
+    line-height: 1.4; /* Increase line spacing */
+    font-weight: 350;
+    color: #60626a;
+    font-family: Apercu, -apple-system, 'BlinkMacSystemFont', Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+#content > div.powered-by > h2 {
+    font-size: 50px; /* Increase font size for heading */
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;  
+    color:#374375
+}
+
+#content > div.horizontal-box1 > p {
+    font-size: 17px; /* Decrease font size for paragraph */
+    line-height: 1.4; /* Increase line spacing */
+    font-weight: 350;
+    color: #60626a;
+    font-family: Apercu, -apple-system, 'BlinkMacSystemFont', Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 
 }
 
-/* Meet the team box */
-.horizontal-box1 {
-    padding: auto 0x;
-    margin-top: 20px; /* Adjusted margin */
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
-    width: 65%; /* Adjusted width */
-    text-align: center;
-    border-radius: 10px;
-    background-color: #D6CCC2;
+.temp-robot-image {
+    width: 45%;
+    position: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 
 .pnm-class-container {
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center items vertically */
+    display: flex;
+    align-items: center;
 }
 
 .pnm-class-image {
-    border-radius: 10px;
     padding: 40px;
     margin-bottom: 30px;
     margin-top: 20px;
     width: 100%; 
-    margin-left: 10%;
+    margin-left: -50%;
+    border-radius: 10px;
 
 }
 
 .other-div {
-    padding: 40px; 
-    background-color: #D6CCC2; 
+    padding: 30px; 
+    background-color: #dee8f5;
+    color: #374375;
     border-radius: 10px; 
     margin-left: 50%; 
     width: 40%;
     text-align: left;
-    line-height: 1.7;
+    line-height: 1.8;
+    font-family: 'Times New Roman', sans-serif;
     margin-top: -400px; 
     margin-bottom: 50px;
-    box-shadow: 10px 10px rgb(176, 156, 147);
+    box-shadow: 10px 10px 10px #b8bdc3;
+}
+
+.objective-purpose {
+    padding: auto 0x;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    text-align: center;
+    border-radius: 10px;
+    color: #374375;
+    font-family: 'Times New Roman', sans-serif;
 
 }
+.line {
+    width: 80%;
+    border-top: 1px solid #ccc; /* Light horizontal line */
+    margin: 20px auto; /* Adjust margin for spacing */
+  }

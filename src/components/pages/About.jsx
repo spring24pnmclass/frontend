@@ -1,6 +1,7 @@
 import React from "react";
-import "../About.css";
+import "../About.css"; // Make sure the path to your CSS file is correct
 import pnmclasspic from "../../assets/pnmclasspic.png";
+import tempRobot from "../../assets/tempRobot.jpg";
 
 export const About = () => {
   return (
@@ -19,11 +20,13 @@ export const About = () => {
            </div>
            </div>
                       
-        {/* Horizontal Box */}
+        {/* Powered by People */}
+        <div className="powered-by">
+          <h2>Powered by People</h2>
+        </div>
+
         <div className="horizontal-box1">
-        <br>
-          </br>
-          <h1>Meet the Team</h1>
+          <p>The To-Go Bot Team consists of the Spring 2024 Prospective New Member Class of San Jose State University Theta Tau Professional Fraternity.</p>
         </div>
 
         {/* Image of PNM Class */}
@@ -33,8 +36,6 @@ export const About = () => {
 
         {/* Second Box */}
         <div className="other-div">
-          <p>The To-Go Bot Team consists of the Spring 2024 Prospective New Member Class of San Jose State University Theta Tau Professional Fraternity.</p>
-          <br />
           <h3>Frontend:</h3>
           <p>Jonathan Wu, Joshua Hsieh, Natalie Tran, Mahek Kothari</p>
           <h3>Pathfinding:</h3>
@@ -48,3 +49,4 @@ export const About = () => {
     </div>
   );
 };
+
