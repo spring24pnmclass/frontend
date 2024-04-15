@@ -7,8 +7,9 @@ body {
   color: #374375;
   font-family: 'Times New Roman', sans-serif;
   background-color: #fdfbf5;
-  font-size: 45px;
-
+  font-size: 65px;
+  margin-top: 20%;
+  margin-bottom: 60px;
   
 }
 .columns-container {
@@ -26,16 +27,42 @@ body {
   margin: 0 5px; /* Adjust spacing */
   padding: 20px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 33px;
   line-height: 1.7; 
   color: #374375;
-  font-size: 20px; /* Decrease font size for paragraph */
+  font-size: 33px; /* Decrease font size for paragraph */
   font-weight: 350;
   color: #60626a;
-
+  margin-bottom: 10%;
 }
 
 .column:not(:last-child) {
   border-right: 1px solid #ccc; /* Add vertical line */
+}
+
+.step-1-img {
+  position: relative;
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  object-position: center calc(50% + 20px); /* Shifts the image to the center horizontally and down by 20 pixels */
+}
+
+
+.step-2-img {
+  position: relative;
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  object-position: center calc(50% + 15%);
+}
+
+.step-3-img {
+  position: relative;
+  width: 125%;
+  height: 200px; 
+  left: -40px;
+  object-fit: cover;
+  object-position: calc();
 }
 
