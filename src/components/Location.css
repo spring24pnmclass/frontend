@@ -36,7 +36,7 @@
 #root > div > div > div.left-column > div.box > h1 {
   font-family: 'Times New Roman', Times, serif;
   color: #374375;
-  font-weight: 500px;
+  font-weight: 5000;
 }
 
 .column-box {
@@ -67,7 +67,7 @@
 }
 
 .refresh-button {
-  background-color: blue;
+  background-color: #334EAC;
   color: white;
   padding: 10px;
   border-radius: 5px;
