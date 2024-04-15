@@ -1,6 +1,9 @@
 import React from "react";
 import BannerComponent from "./BannerComponent"; // Import the BannerComponent
 import "../Home.css";
+import step_1 from "../../assets/step_1.png";
+import step_2 from "../../assets/step_2.png";
+import step_3 from "../../assets/step_3.png";
 
 export const Home = () => {
   return (
@@ -10,21 +13,23 @@ export const Home = () => {
       </div>
       
       <div className="text-container">
-        <br>
-        </br>
+        <br />
         <p>How you can use our product:</p>
       </div>
 
       <div className="columns-container">
         <div className="column">
+          <img src={step_1} alt="Step 1: Open the website" className="step-1-img" />
           <h1>1</h1>
-          <p>If you every find yourself hungry, yet in an awkward area on campus just open this webiste. Then, figure out what you want to eat and then go to the order page</p>
+          <p>If you ever find yourself hungry, yet in an awkward area on campus just open this website. Then, figure out what you want to eat and then go to the order page.</p>
         </div>
         <div className="column">
+          <img src={step_2} alt="Step 2: Place an order" className="step-2-img" />
           <h1>2</h1>
-          <p>After choosing your specifc food just click our easy order bottom!</p>
+          <p>After choosing your specific food just click our easy order button!</p>
         </div>
         <div className="column">
+          <img src={step_3} alt="Step 3: Receive your food" className="step-3-img" />
           <h1>3</h1>
           <p>After you order, your food will be delivered shortly through the to-go bot.</p>
         </div>
