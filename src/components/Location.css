@@ -1,44 +1,68 @@
 /* Base styles */
 .body {
-    text-align: center;
-    font-family: 'Epilogue', sans-serif;
-    background-color: #F5EBE0; /* Set the background color for the entire page */
+  text-align: center;
+  font-family: 'Epilogue', sans-serif;
+  background-color: #F5EBE0; /* Set the background color for the entire page */
 }
 
 /* Common box styles */
 .container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .box {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin: 0 10px; /* Add margin to the sides */
-  }
-.div,
-
-/* Description Box */
-.div {
-    padding: 40px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    background-color: #D6CCC2;
-    width: 40%;
-    text-align: left;
-    margin-left: 32%;
-    line-height: 1.7;
-
+  display: flex;
 }
 
+.left-column {
+  flex: 0.3; /* Adjust the width of the left column */
+  padding-right: 20px; /* Add right padding to create space between the boxes */
+}
+
+.right-column {
+  flex: 0.7; /* Adjust the width of the right column */
+  padding-left: 20px;
+}
+
+.box {
+  width: 100%; /* Adjust width of the left box */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; /* Add margin to separate the boxes */
+  text-align: center;
+}
+
+.column-box {
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  background-color: #dee8f5;
+  width: 40%;
+  text-align: center; /* Center text within .div */
+  margin-left: 32%;
+  line-height: 1.7;
+  box-shadow: 10px 10px 10px #b8bdc3;
+  border-radius: 10px;
+}
+
+
 .map-container {
-  width: 100%;
-  height: 750px; /* Adjust height as needed */
+  flex: 0.7; /* Adjust the width of the right box */
+  height: 80vh; /* Adjust the height of the map container */
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden; /* Hide overflow to prevent scrollbars */
-  flex: 1;
+}
+
+/* Description Box */
+.div {
+  padding: 40px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  background-color: #b8bdc3;
+  width: 40%;
+  text-align: center; /* Center text within .div */
+  margin-left: 32%;
+  line-height: 1.7;
 }
 
 .refresh-button {
