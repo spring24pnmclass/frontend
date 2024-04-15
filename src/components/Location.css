@@ -24,18 +24,24 @@
   width: 100%; /* Adjust width of the left box */
   padding: 20px;
   border: 1px solid #ccc;
+  background-color: #dee8f5;
   margin-bottom: 20px; /* Add margin to separate the boxes */
   text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 10px 10px 10px #b8bdc3;
+  border-radius: 10px;
 }
 
 .column-box {
-  padding: 20px;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  padding: 50px;
+  margin-bottom: 10%;
+  margin-top: 20%;
   background-color: #dee8f5;
-  width: 40%;
+  width: 100%;
   text-align: center; /* Center text within .div */
-  margin-left: 32%;
+  margin-left: 20%;
+  margin-right: 20%;
   line-height: 1.7;
   box-shadow: 10px 10px 10px #b8bdc3;
   border-radius: 10px;
@@ -46,23 +52,11 @@
   flex: 0.7; /* Adjust the width of the right box */
   height: 80vh; /* Adjust the height of the map container */
   margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden; /* Hide overflow to prevent scrollbars */
-}
-
-/* Description Box */
-.div {
-  padding: 40px;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  background-color: #b8bdc3;
-  width: 40%;
-  text-align: center; /* Center text within .div */
-  margin-left: 32%;
-  line-height: 1.7;
 }
 
 .refresh-button {
