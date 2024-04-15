@@ -12,6 +12,15 @@ body {
   margin-bottom: 60px;
   
 }
+#root > div > div > div.text-container {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#root > div > div > div.columns-container > div:nth-child(1) > p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .columns-container {
   display: flex;
   justify-content: space-between;
