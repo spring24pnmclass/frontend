@@ -23,7 +23,6 @@
 .box {
   width: 100%; /* Adjust width of the left box */
   padding: 20px;
-  border: 1px solid #ccc;
   background-color: #dee8f5;
   margin-bottom: 20px; /* Add margin to separate the boxes */
   text-align: center;
@@ -31,12 +30,12 @@
   margin-right: 20%;
   box-shadow: 10px 10px 10px #b8bdc3;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 20px;
 }
 #root > div > div > div.left-column > div.box > h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Apercu, '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   color: #374375;
-  font-weight: 5000;
+  font-weight: 400;
 }
 
 .column-box {
@@ -52,8 +51,14 @@
   box-shadow: 10px 10px 10px #b8bdc3;
   border-radius: 10px;
   font-size: 24px;
+  color: #374375;
 }
 
+#root > div > div > div.left-column > div.column-box > h2 {
+  font-family: Apercu, '-apple-system',BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  color: #374375;
+  font-weight: 400;
+}
 
 .map-container {
   flex: 0.7; /* Adjust the width of the right box */
@@ -67,7 +72,7 @@
 }
 
 .refresh-button {
-  background-color: #334EAC;
+  background-color: #374375;
   color: white;
   padding: 10px;
   border-radius: 5px;

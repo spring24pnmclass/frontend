@@ -61,7 +61,7 @@ export default function Location() {
       <div className="left-column">
         <div className="box">
           <h1>Order Status:</h1>
-          <p>On the way . . . </p>
+          <p>on the way . . . </p>
           <button onClick={fetchRandomCoordinates} className="refresh-button">Refresh</button>
         </div>
         <div className="column-box">
