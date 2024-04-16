@@ -14,7 +14,7 @@ export const Home = () => {
       
       <div className="text-container">
         <br />
-        <p>How you can use our product:</p>
+        <h1>How our product works</h1>
       </div>
 
       <div className="columns-container">

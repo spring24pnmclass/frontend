@@ -1,57 +1,90 @@
+
 body {
-  background-color: #fdfbf5;  /* Set the background color */
+  background-color: #fdfbf5; 
 }
+
 .text-container {
   text-align: center;
   line-height: 1.7; 
   color: #374375;
-  font-family: 'Times New Roman', sans-serif;
   background-color: #fdfbf5;
-  font-size: 65px;
-  margin-top: 20%;
-  margin-bottom: 60px;
-  
+  margin-top: 13%;
+  margin-bottom: 30px;
+  font-size: 100%;
 }
-#root > div > div > div.text-container {
-  font-family: 'Times New Roman', Times, serif;
+
+.text-container h1 {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.columns-container p {
+  line-height: 1.4; /* Increase line spacing */
+  color: #60626a;
+  text-align: left;
+  font-family: Apercu, '-apple-system', BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 
 }
 
-#root > div > div > div.columns-container > div:nth-child(1) > p {
-  font-family: 'Times New Roman', Times, serif;
+.columns-container h1 {
+  text-align: center;
+  font-family: Apercu, '-apple-system', BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  color: #374375;
+  font-weight: 500;
+
 }
+
 
 .columns-container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px; /* Adjust spacing */
-  margin-top: 40px;
   margin-left: 50px; /* Adjust left margin */
   margin-right: 50px; /* Adjust right margin */
 
 }
-
 .column {
   flex: 1;
-  margin: 0 5px; /* Adjust spacing */
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
-  font-size: 33px;
-  line-height: 1.7; 
+  font-size: 20px;
+  line-height: 1.3; 
   color: #374375;
-  font-size: 33px; /* Decrease font size for paragraph */
   font-weight: 350;
   color: #60626a;
-  margin-bottom: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 20%;
+  height: 450px; /* Increase the height */
+}
+.column h1 {
+  margin-top: -10px;
+  margin-bottom: 15px; /* Adjust as needed */
+  font-size: 40px; /* Increase font size */
 }
 
+.column p {
+  margin-top: 15px; /* Adjust as needed */
+  font-size: 20px; /* Increase font size */
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px; /* Decrease font size for paragraph */
+  line-height: 1.4; /* Increase line spacing */
+  color: #60626a;
+  font-family: Apercu, -apple-system, 'BlinkMacSystemFont', Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+
+
 .column:not(:last-child) {
-  border-right: 1px solid #ccc; /* Add vertical line */
+  border-right: 1px solid #cccccc; /* Add vertical line */
 }
 
 .step-1-img {
   position: relative;
-  width: 100%;
+  margin-top:-10%;
+  width: 50%;
   height: 200px; 
   object-fit: cover;
   object-position: center calc(50% + 20px); /* Shifts the image to the center horizontally and down by 20 pixels */
@@ -60,18 +93,24 @@ body {
 
 .step-2-img {
   position: relative;
-  width: 100%;
+  margin-top:-10%;
+  width: 50%;
   height: 200px; 
   object-fit: cover;
   object-position: center calc(50% + 15%);
+  left: -5px;
+
 }
 
 .step-3-img {
   position: relative;
-  width: 125%;
+  margin-top:-10%;
+  width: 50%;
   height: 200px; 
-  left: -40px;
+  left: -1px;
   object-fit: cover;
   object-position: calc();
 }
+
+
 

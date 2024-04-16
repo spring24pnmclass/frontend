@@ -5,9 +5,6 @@ import banner_art from "../../assets/banner_art.png";
 const BannerComponent = () => {
   return (
     <div className="banner">
-      <div class="box_3JAMv loadMore_bVOpc">
-            <div class="scroller_dt8Fd"></div>
-          </div>
       <div className="banner-content">
         {/* Image and Text Overlay */}
         <div className="banner-image">
