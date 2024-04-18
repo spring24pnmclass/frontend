@@ -10,7 +10,7 @@ const Footer=()=> {
             <div className="sb__footer section__padding">
                 <div className="sb__footer-links">
                     <div className="sb__footer-links_div">
-                        <h4>ToGoBot</h4>
+                        <h4>To-Go Bot</h4>
                         <div>
                             <h2>Hello, This is text to fill out</h2>
                         </div>
