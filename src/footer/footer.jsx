@@ -32,7 +32,7 @@ const Footer=()=> {
                         <div className="socialmedia">
                         <p><a href="https://www.instagram.com/pnms24" target="_blank"><img src={insta} alt="Instagram"/></a></p>
 
-
+                        
                         <p><a href="https://www.discord.com" target="_blank"><img src={discord} alt="Discord"/></a></p>
 
 
