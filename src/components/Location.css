@@ -69,6 +69,8 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden; /* Hide overflow to prevent scrollbars */
+  margin-bottom: 10%;
+
 }
 
 .refresh-button {

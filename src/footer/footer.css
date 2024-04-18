@@ -59,6 +59,9 @@
     font-family: "Times New Roman", Times, serif;
     font-weight: 540;
 }
+#root > div > div.footer > div > hr {
+    margin-top: 3%;
+}
 
 
 .socialmedia img {
