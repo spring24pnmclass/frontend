@@ -12,7 +12,7 @@ const Footer=()=> {
                     <div className="sb__footer-links_div">
                         <h4>To-Go Bot</h4>
                         <div>
-                            <h2>Hello, This is text to fill out</h2>
+                            <h2>For your <br></br>convenience!</h2>
                         </div>
                     </div>
                     <div className="sb__footer-links_div">
