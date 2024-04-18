@@ -10,15 +10,15 @@ const Footer=()=> {
             <div className="sb__footer section__padding">
                 <div className="sb__footer-links">
                     <div className="sb__footer-links_div">
-                        <h4>To-Go Bot</h4>
+                        <h4 className="footerName">To-Go Bot</h4>
                         <div>
                             <h2>For your <br></br>convenience!</h2>
                         </div>
                     </div>
                     <div className="sb__footer-links_div">
-                        <h4>Pages</h4>
+                        <h4>Navigation</h4>
                         <a href="/about">
-                            <p>About</p>
+                            <p>About Us</p>
                         </a>
                         <a href="/">
                             <p>Home</p>
@@ -28,14 +28,10 @@ const Footer=()=> {
                         </a>
                     </div>
                     <div className="sb__footer-links_div">
-                        <h4>Socials</h4>
+                        <h4 className = "socials">Socials</h4>
                         <div className="socialmedia">
-                        <p><a href="https://www.instagram.com/pnms24" target="_blank"><img src={insta} alt="Instagram"/></a></p>
-
-                        
-                        <p><a href="https://www.discord.com" target="_blank"><img src={discord} alt="Discord"/></a></p>
-
-
+                            <p><a href="https://www.instagram.com/pnms24" target="_blank"><img src={insta} alt="Instagram"/></a></p>
+                            <p><a href="https://www.discord.com" target="_blank"><img src={discord} alt="Discord"/></a></p>
                         </div>
                     </div>
                 </div>
@@ -56,6 +52,6 @@ const Footer=()=> {
         </div>
     )
 }
-
-
 export default Footer;
+
+
