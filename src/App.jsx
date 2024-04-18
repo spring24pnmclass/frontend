@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Order, Home, About, Location } from "./components/pages";
+import Footer from "./footer/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/order" element={<Order />} />
         <Route path="/location" element={<Location />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
