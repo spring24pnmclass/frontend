@@ -4,7 +4,7 @@ import "src/components/Login.css";
 const Login=()=> {
     return (
         <div>
-            <p>Hello</p>
+            <p></p>
         </div>
     )
 }
