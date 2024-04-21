@@ -1,6 +1,7 @@
 import React from "react";
 import "/src/components/banner.css";
-import LoginComponent from "./LoginComponent"; // Import the LoginComponent
+import { Link } from "react-router-dom";
+import LoginComponent from "./LoginComponent"; // Import the BannerComponent
 import banner_art from "/src/assets/banner_art.png";
 
 const BannerComponent = () => {
@@ -13,7 +14,11 @@ const BannerComponent = () => {
           <div className="banner-text">
             <h2>Revolutionize food delivery, <br></br>one robot at a time. </h2>
             <p>We fundamentally believe that college students should have access to food, and through our autonomous food delivery robot, we will bring food to students!</p>          
-            <LoginComponent/>
+            <Link to="/login">
+              <button className="button">
+                <p>Order</p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
