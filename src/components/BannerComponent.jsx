@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/components/banner.css";
-import LoginComponent from "./LoginComponent"; // Import the BannerComponent
+import LoginComponent from "./LoginComponent"; // Import the LoginComponent
 import banner_art from "/src/assets/banner_art.png";
 
 const BannerComponent = () => {

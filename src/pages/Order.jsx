@@ -17,7 +17,7 @@ export const Order = () => {
       <div class="caption">(Map of SJSU)</div>
     </div>
 
-  <Link to="/location">
+  <Link to="/login">
     <button className="button">
         <h2>Order</h2>
     </button>

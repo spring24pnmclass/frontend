@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { auth } from '../../firebase/firebaseConfig';
+import { useNavigate } from 'react-router-dom';
 import "/src/components/Location.css";
 import {
   APIProvider,
@@ -9,6 +11,30 @@ import {
 export default function Location() {
   const [position, setPosition] = useState({ lat: 37.33452148042106, lng: -121.88072672513455 });
   const [currentTime, setCurrentTime] = useState(null);
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true); // Add loading state
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      const currentUser = auth.currentUser;
+      if (currentUser) {
+        setUser(currentUser.displayName);
+      }
+      setLoading(false); // Set loading to false once user data is fetched or not available
+    };
+
+    fetchUserData();
+  }, []);
+
+  const handleSignOut = async () => {
+    try {
+      await auth.signOut();
+      navigate('/login'); // Redirect to login page after sign out
+    } catch (error) {
+      console.error("Error signing out:", error.message);
+    }
+  };
 
   const fetchRandomCoordinates = async () => {
     try {
@@ -58,31 +84,40 @@ export default function Location() {
 
   return (
     <div className="container">
-      <div className="left-column">
-        <div className="box">
-          <h1>Order Status:</h1>
-          <p>on the way . . . </p>
-          <button onClick={fetchRandomCoordinates} className="refresh-button">Refresh</button>
-        </div>
-        <div className="column-box">
-          <h2>Last Refreshed:</h2>
-          <p>{currentTime}</p>
-        </div>
-      </div>
-      <div className="right-column">
-        <div className="map-container">
-          <APIProvider apiKey='API-KEY'> {/* Add to vercel environment later */}
-            <div style={{ height: "100%", width: "100%" }}>
-              <Map
-                zoom={5}
-                center={position}
-              >
-                <Marker position={position} />
-              </Map>
+      {loading ? ( // Show loading indicator while user data is being fetched
+        <div>Loading...</div>
+      ) : (
+        <>
+          <div className="left-column">
+            <div className="box">
+              <h2>Name:</h2>
+              <p>{user}</p>
+              <button onClick={handleSignOut} className="refresh-button">Sign Out</button> {/* Add sign-out button */}
+              <h2>Order Status:</h2>
+              <p>on the way . . . </p>
+              <button onClick={fetchRandomCoordinates} className="refresh-button">Refresh</button>
             </div>
-          </APIProvider>
-        </div>
-      </div>
+            <div className="column-box">
+              <h2>Last Refreshed:</h2>
+              <p>{currentTime}</p>
+            </div>
+          </div>
+          <div className="right-column">
+            <div className="map-container">
+              <APIProvider apiKey='API-KEY'>
+                <div style={{ height: "100%", width: "100%" }}>
+                  <Map
+                    zoom={5}
+                    center={position}
+                  >
+                    <Marker position={position} />
+                  </Map>
+                </div>
+              </APIProvider>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 }

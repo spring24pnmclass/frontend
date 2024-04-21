@@ -1,12 +1,12 @@
 import React from "react";
-import "src/components/Login.css";
+import LoginComponent from "../components/LoginComponent.jsx";
 
-const Login=()=> {
-    return (
-        <div>
-            <p></p>
-        </div>
-    )
+const Login = ({ setUser }) => {
+  return (
+    <div>
+      <LoginComponent setUser={setUser} />
+    </div>
+  );
 }
 
 export default Login;

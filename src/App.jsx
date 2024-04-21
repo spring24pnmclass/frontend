@@ -1,21 +1,30 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
-import { Order, Home, About, Location } from "./pages";
+import { Order, Home, About, Location, Login } from "./pages";
 import Footer from "./footer/footer";
+import { useState } from "react";
 
 function App() {
+  const [user, setUser] = useState(null); // State to manage user authentication
+
   return (
     <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/services" element={<Services />} /> */}
         <Route path="/order" element={<Order />} />
-        <Route path="/location" element={<Location />} />
+        <Route
+          path="/location"
+          element={user ? <Location /> : <Navigate to="/login" />}
+        />
+        <Route
+          path="/login"
+          element={<Login setUser={setUser} />}
+        />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
