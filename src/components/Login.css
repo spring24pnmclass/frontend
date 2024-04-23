@@ -1,25 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+
+}
+
+.title {
+  font-size: 30px; 
+  margin-top: 40px;
+  margin-bottom: 10px; 
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Example background color */
+  color: white; /* Example text color */
+  padding: 20px; /* Example padding */
+}
+
 .login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh !important;
-  }
-  
-  .firebase-login-button {
-    background-color: #4285f4;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  
-  .firebase-login-button:hover {
-    background-color: #357ae8;
-  }
-  
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 60px); /* Adjusted height to accommodate the footer */
+  margin-top: 200%;
+}
+
+.firebase-login-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.firebase-login-button:hover {
+  background-color: #357ae8;
+}
