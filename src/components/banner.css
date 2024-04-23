@@ -68,7 +68,9 @@
   transition: background-color 0.3s;
   margin-top: 5%; /* Added space from the text */
 }
-
+.button:hover {
+  background-color: #e8bdd7;
+}
 .button p {
  color: #ffffff;
 

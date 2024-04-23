@@ -18,7 +18,7 @@ export const Order = () => {
     </div>
 
   <Link to="/login">
-    <button className="button">
+    <button className="button1">
         <h2>Order</h2>
     </button>
   </Link>
