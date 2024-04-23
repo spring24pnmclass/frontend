@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/components/About.css"; // Make sure the path to your CSS file is correct
-import pnmclasspic from "/src/assets/pnmclasspic.png";
+import groupPicture from "/src/assets/groupPicture.png";
 import tempRobot from "/src/assets/tempRobot.jpg";
 
 export const About = () => {
@@ -36,7 +36,7 @@ export const About = () => {
 
         {/* Image of PNM Class */}
         <div className="pnm-class-container">
-          <img src={pnmclasspic} alt="PNM Class" className="pnm-class-image" />
+          <img src={groupPicture} alt="PNM Class" className="pnm-class-image" />
         </div>
 
         {/* Second Box */}
