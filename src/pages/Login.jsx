@@ -6,38 +6,16 @@ const Login = ({ setUser }) => {
   return (
 
     <div className="login-container">
-      <body>
-
-
-        
-      <p><br></br><br /></p>
-      </body>
+      
       <div className="title">
         <h1>Login Page</h1>
       </div>
-
-{/*         
-        <p><br></br><br /></p>
-        <p><br></br><br /></p>
-        <p><br></br><br /></p>
-        <p><br></br><br /></p> */}
 
         
             <div className="firebase-login-button">
                 <LoginComponent setUser={setUser} />
             </div>
       
-
-        <body> 
-
-
-        {/* <p><br></br><br /></p>
-        <p><br></br><br /></p>
-        <p><br></br><br /></p>
-        <p><br></br><br /></p>
-        <p><br></br><br /></p> */}
-    
-      </body> 
          
     </div>
    
