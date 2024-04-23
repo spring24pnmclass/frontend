@@ -1,7 +1,7 @@
 import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
-import { Order, Home, About, Location, Login } from "./pages";
+import { Order, Home, About, Location, Login} from "./pages";
 import Footer from "./footer/footer";
 import { useState } from "react";
 
@@ -23,6 +23,7 @@ function App() {
           path="/login"
           element={<Login setUser={setUser} />}
         />
+        
       </Routes>
       <Footer />
     </div>
