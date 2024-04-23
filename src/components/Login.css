@@ -8,7 +8,7 @@ body, html {
 .title {
   font-size: 30px; 
   margin-top: 10px;
-  margin-bottom: 10px; 
+  margin-bottom: 50px; 
 }
 
 .login-container {
@@ -20,4 +20,6 @@ body, html {
   height: calc(90vh - 20px); /* Adjusted height to make the page longer */
   /* margin-top: 200%; */ /* Adjust or remove this line */
 }
+
+
 

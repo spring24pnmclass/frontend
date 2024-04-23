@@ -22,11 +22,11 @@ const Login = ({ setUser }) => {
         <p><br></br><br /></p>
         <p><br></br><br /></p> */}
 
-        <div>
+        
             <div className="firebase-login-button">
                 <LoginComponent setUser={setUser} />
             </div>
-        </div>
+      
 
         <body> 
 
