@@ -68,3 +68,8 @@
   transition: background-color 0.3s;
   margin-top: 5%; /* Added space from the text */
 }
+
+.button p {
+ color: #ffffff;
+
+}
