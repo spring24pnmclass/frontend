@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body, html {
   height: 100%;
@@ -11,18 +7,8 @@ body, html {
 
 .title {
   font-size: 30px; 
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 10px; 
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #333; /* Example background color */
-  color: white; /* Example text color */
-  padding: 20px; /* Example padding */
 }
 
 .login-container {
@@ -31,21 +17,7 @@ body, html {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: calc(100vh - 60px); /* Adjusted height to accommodate the footer */
-  margin-top: 200%;
+  height: calc(90vh - 20px); /* Adjusted height to make the page longer */
+  /* margin-top: 200%; */ /* Adjust or remove this line */
 }
 
-.firebase-login-button {
-  background-color: #4285f4;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.firebase-login-button:hover {
-  background-color: #357ae8;
-}
