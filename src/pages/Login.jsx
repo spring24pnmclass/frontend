@@ -3,9 +3,16 @@ import LoginComponent from "../components/LoginComponent.jsx";
 
 const Login = ({ setUser }) => {
   return (
-    <div>
-      <LoginComponent setUser={setUser} />
+    <div className="container">
+        <h1>Login Page</h1>
+        <div>
+            <div className="firebase-login-button">
+                <LoginComponent setUser={setUser} />
+            </div>
+        </div>
+         
     </div>
+   
   );
 }
 
