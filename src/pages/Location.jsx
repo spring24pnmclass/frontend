@@ -104,12 +104,11 @@ export default function Location() {
           </div>
           <div className="right-column">
             <div className="map-container">
-              <APIProvider apiKey='AIzaSyB3PNW0LGaQ_vhf-oBLk413vuo-71qkwCU'>
+              <APIProvider apiKey='API-KEY'>
                 <div style={{ height: "100%", width: "100%" }}>
                   <Map
                     zoom={50}
                     center={position}
-                    zoomControl={false}
                   >
                     <Marker position={position} />
                   </Map>

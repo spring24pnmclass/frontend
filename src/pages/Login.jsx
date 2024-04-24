@@ -4,21 +4,14 @@ import "/src/components/Login.css";
 
 const Login = ({ setUser }) => {
   return (
-
     <div className="login-container">
-      
       <div className="title">
-        <h1>Login Page</h1>
+        <h1>Login</h1>
       </div>
-
-        
             <div className="firebase-login-button">
                 <LoginComponent setUser={setUser} />
             </div>
-      
-         
     </div>
-   
   );
 }
 
