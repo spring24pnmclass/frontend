@@ -1,7 +1,7 @@
 import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
-import { Order, Home, About, Location, Login} from "./pages";
+import { Order, Home, About, Location, Login, Privacy } from "./pages";
 import Footer from "./footer/footer";
 import { useState } from "react";
 
@@ -15,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/order" element={<Order />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route
           path="/location"
           element={user ? <Location /> : <Navigate to="/login" />}
@@ -23,7 +24,6 @@ function App() {
           path="/login"
           element={<Login setUser={setUser} />}
         />
-        
       </Routes>
       <Footer />
     </div>
