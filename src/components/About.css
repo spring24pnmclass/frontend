@@ -186,7 +186,19 @@
     
 }
 
+.electrical-slider {
+    max-width: 45vh;
+    max-height: 60vh; 
+}
+
+.hardware-slider {
+    max-width: 45vh;
+    max-height: 60vh; 
+}
+
 .carousel-container {
     max-width: 45vh; /* Set the maximum width of the carousel */
     margin: 0 auto; /* Center the carousel horizontally */
+    margin-bottom: 45px;
+    margin-top: 50px;
 }

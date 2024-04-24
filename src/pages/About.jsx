@@ -84,22 +84,19 @@ export const About = () => {
         <div className="carousel-container">
           <Carousel showStatus={false} showThumbs={false} infiniteLoop autoPlay interval={5000}>
             <div>
-              <img src={electrical} className="image-slider" alt="Electrical" />
+              <img src={electrical} className="electrical-slider" alt="Electrical" />
             </div>
             <div>
-              <img src={hardware} className="image-slider" alt="Hardware" />
+              <img src={hardware} className="hardware-slider" alt="Hardware" />
             </div>
             <div>
-              <img src={frontend} className="image-slider" alt="Frontend" />
+              <img src={frontend} className="frontend-slider" alt="Frontend" />
             </div>
             <div>
-              <img src={pathfinding} className="image-slider" alt="Pathfinding" />
+              <img src={pathfinding} className="pathfinding-slider" alt="Pathfinding" />
             </div>
           </Carousel>
         </div>
-        <br></br><br></br><br></br><br></br>
-        
-
       </div>
     </div>
   );
