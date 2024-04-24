@@ -20,7 +20,7 @@
 .title {
     font-size: 30px; 
     margin-top: 5%;
-    margin-bottom: 10%; 
+    margin-bottom: 5%; 
 }
 
 /* Common box styles */
@@ -122,6 +122,12 @@
     border-radius: 10px; 
 }
 
+.robot-image {
+    margin: 2% auto; 
+    width: 50%;
+    border-radius: 10px; 
+}
+
 .pnm-class-container {
     display: flex;
     align-items: center;
@@ -153,7 +159,7 @@
 
 .objective-purpose {
     padding: auto 0x;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 55%;
