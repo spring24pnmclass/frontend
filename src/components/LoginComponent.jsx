@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { auth } from '../../firebase/firebaseConfig';
 import { useNavigate } from 'react-router-dom';
+import "/src/components/loginButton.css";
 
 const LoginComponent = ({ setUser }) => {
   const navigate = useNavigate();
@@ -27,8 +28,8 @@ const LoginComponent = ({ setUser }) => {
   };
 
   return (
-    <div className='pt-36 w-full flex flex-col items-center'>
-      <button onClick={handleGoogle} className='border-4 bg-green-500 text-white rounded-full mb-8'>
+    <div className='pt-1000 w-full flex flex-col items-center'>
+      <button onClick={handleGoogle} className='firebase-login-button'>
         Sign In With Google
       </button>
     </div>

@@ -35,12 +35,12 @@ body {
     margin-top: 30px; /* Added space from the top */
 }
 
-.button {
+.button1 {
     padding: 10px;
     width: 10%; /* Adjusted width */
     text-align: center;
     border-radius: 10px;
-    background-color: #7e88b0;
+    background-color: #dd9dc4;
     cursor: pointer;
     font-family: Apercu, -apple-system, 'BlinkMacSystemFont', Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     color: #ffffff;
@@ -48,8 +48,8 @@ body {
     margin-top: -5%; /* Added space from the text */
 }
 
-.button:hover {
-    background-color: #dd9dc4;
+.button1:hover {
+    background-color: #e8bdd7;
 }
 
 .sjsu-map-image {
@@ -61,7 +61,6 @@ body {
 
 #root > div {
     background-color: #fdfbf5 !important; /* Set the background color for the entire page */
-
 }
 
 #root > div > div.description-box > h2 

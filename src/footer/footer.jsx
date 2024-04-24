@@ -46,7 +46,9 @@ const Footer=()=> {
                             @{new Date().getFullYear()} To-Go Bot. All rights reserved.
                         </p>
                     </div>
-                   
+                    <div className="sb__footer-below-links">
+                        <a href="/privacy"><div><p>Privacy</p></div></a>
+                    </div>
                 </div>
             </div>
         </div>
