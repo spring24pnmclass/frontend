@@ -107,7 +107,7 @@ export default function Location() {
               <APIProvider apiKey='API-KEY'>
                 <div style={{ height: "100%", width: "100%" }}>
                   <Map
-                    zoom={5}
+                    zoom={50}
                     center={position}
                   >
                     <Marker position={position} />
