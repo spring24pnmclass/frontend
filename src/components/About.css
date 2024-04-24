@@ -64,6 +64,13 @@
     margin-bottom: 5px; /* Add space below title */
 }
 
+/* Meet the Team */
+.meet-the-team {
+    font-size: 30px; /* Increase font size */
+    margin-top: 40px;
+    margin-bottom: 5px; /* Add space below title */
+} 
+
 .horizontal-box1 {
     padding: auto 0x;
     margin-top: 20px;
@@ -124,7 +131,7 @@
     padding: 40px;
     margin-bottom: 30px;
     margin-top: 20px;
-    width: 100%; 
+    width: 85vh; 
     margin-left: -50%;
     border-radius: 50px; 
 }
@@ -139,7 +146,7 @@
     text-align: left;
     line-height: 1.8;
     font-family: Apercu, -apple-system, 'BlinkMacSystemFont', Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    margin-top: -400px; 
+    margin-top: -450px; 
     margin-bottom: 10%;
     box-shadow: 10px 10px 10px #b8bdc3;
 }
@@ -160,4 +167,26 @@
     width: 80%;
     border-top: 1px solid #ccc; /* Light horizontal line */
     margin: 20px auto; /* Adjust margin for spacing */
+}
+
+.image-slider {
+    max-width: 45vh;
+    max-height: 60vh;
+    display: block;
+}
+
+.frontend-slider {
+    max-width: 45vh;
+    max-height: 60vh; 
+}
+
+.pathfinding-slider {
+    max-width: 65vh;
+    max-height: 100vh;
+    
+}
+
+.carousel-container {
+    max-width: 45vh; /* Set the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
 }

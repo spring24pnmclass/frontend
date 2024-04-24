@@ -1,9 +1,30 @@
 import React from "react";
-import "/src/components/About.css"; // Make sure the path to your CSS file is correct
+import "/src/components/About.css"; 
+
+import Slider from "react-slick";
+import "/node_modules/slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 import groupPicture from "/src/assets/groupPicture.png";
 import tempRobot from "/src/assets/tempRobot.jpg";
+import electrical from "/src/assets/electrical.png";
+import frontend from "/src/assets/frontend.png";
+import hardware from "/src/assets/hardware.png";
+import pathfinding from "/src/assets/pathfinding.png";
 
 export const About = () => {
+  // Slider settings
+  const settings = {
+    dots: true, //display dots or no for nav
+    infinite: true, //infinate scrolling?
+    speed: 500, //how long does it take to change pics in milliseconds
+    slidesToShow: 1, //number of slides to show at once
+    slidesToScroll: 1 ///how many slides to scroll at a time 
+  };
+
   return (
     <div id="root">
       {/* Content Section */}
@@ -50,6 +71,35 @@ export const About = () => {
           <h3>Electrical:</h3>
           <p>Hari Kotamsetti, Huy Duong, Noah Bonifacio, Sachi Kelkar, Spandan Kotakotta</p>
         </div>
+
+        {/* Horizontal line */}
+        <hr className="line" />
+
+        {/* Powered by People */}
+        <div className="powered-by"> {/*Font style would not change, using powered by as class*/}
+          <h2>Meet The Team</h2>
+        </div>
+
+        {/* Image Slider */}
+        <div className="carousel-container">
+          <Carousel showStatus={false} showThumbs={false} infiniteLoop autoPlay interval={5000}>
+            <div>
+              <img src={electrical} className="image-slider" alt="Electrical" />
+            </div>
+            <div>
+              <img src={hardware} className="image-slider" alt="Hardware" />
+            </div>
+            <div>
+              <img src={frontend} className="image-slider" alt="Frontend" />
+            </div>
+            <div>
+              <img src={pathfinding} className="image-slider" alt="Pathfinding" />
+            </div>
+          </Carousel>
+        </div>
+        <br></br><br></br><br></br><br></br>
+        
+
       </div>
     </div>
   );
