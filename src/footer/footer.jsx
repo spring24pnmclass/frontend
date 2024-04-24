@@ -1,7 +1,7 @@
 import React from "react";
 import './footer.css';
 import insta from "../assets/instagramLogo.png";
-import discord from "../assets/transparentDiscord.png";
+import github from "../assets/githubicon.png";
 
 
 const Footer=()=> {
@@ -31,7 +31,7 @@ const Footer=()=> {
                         <h4 className = "socials">Socials</h4>
                         <div className="socialmedia">
                             <p><a href="https://www.instagram.com/pnms24" target="_blank"><img src={insta} alt="Instagram"/></a></p>
-                            <p><a href="https://www.discord.com" target="_blank"><img src={discord} alt="Discord"/></a></p>
+                            <p><a href="https://github.com/spring24pnmclass/frontend" target="_blank"><img src={github} alt="GitHub"/></a></p>
                         </div>
                     </div>
                 </div>
