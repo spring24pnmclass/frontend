@@ -9,11 +9,11 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import groupPicture from "/src/assets/groupPicture.png";
-import tempRobot from "/src/assets/tempRobot.jpg";
 import brownie from "/src/assets/brownie_pic.jpg";
 import pho from "/src/assets/pho_mai.jpg";
 import rohith from "/src/assets/rohith_selfie.jpg";
 import work from "/src/assets/work_pic.jpg";
+import robot from "/src/assets/robot-photo.png";
 
 export const About = () => {
   // Slider settings
@@ -39,8 +39,8 @@ export const About = () => {
           <p>A problem at San Jose State University is the distance required to travel to acquire food from the Student Union to the dorms. To prevent students from going hungry, the Prospective New Members of San Jose State University Theta Tau Professional Engineering Fraternity decided to create a robot that would be able to deliver items across 7th Street.</p>
         </div>
 
-        <div className="temp-robot-image">
-        <img src={tempRobot} alt="Temp Robot Pic" className="temp-robot-image" />
+        <div className="robot-image">
+          <img src={robot} alt="Robot Pic" className="robot-image" />
         </div>
                       
         {/* Horizontal line */}
