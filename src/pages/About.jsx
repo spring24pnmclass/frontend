@@ -10,10 +10,10 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import groupPicture from "/src/assets/groupPicture.png";
 import tempRobot from "/src/assets/tempRobot.jpg";
-import electrical from "/src/assets/electrical.png";
-import frontend from "/src/assets/frontend.png";
-import hardware from "/src/assets/hardware.png";
-import pathfinding from "/src/assets/pathfinding.png";
+import brownie from "/src/assets/brownie_pic.jpg";
+import pho from "/src/assets/pho_mai.jpg";
+import rohith from "/src/assets/rohith_selfie.jpg";
+import work from "/src/assets/work_pic.jpg";
 
 export const About = () => {
   // Slider settings
@@ -76,24 +76,24 @@ export const About = () => {
         <hr className="line" />
 
         {/* Powered by People */}
-        <div className="powered-by"> {/*Font style would not change, using powered by as class*/}
-          <h2>Meet The Team</h2>
+        <div className="powered-by"> 
+          <h2>Meet the Team</h2>
         </div>
 
         {/* Image Slider */}
         <div className="carousel-container">
           <Carousel showStatus={false} showThumbs={false} infiniteLoop autoPlay interval={5000}>
             <div>
-              <img src={electrical} className="electrical-slider" alt="Electrical" />
+              <img src={pho} className="image-slider" alt="pho picture" />
             </div>
             <div>
-              <img src={hardware} className="hardware-slider" alt="Hardware" />
+              <img src={rohith} className="image-slider" alt="rohith picture" />
             </div>
             <div>
-              <img src={frontend} className="frontend-slider" alt="Frontend" />
+              <img src={work} className="image-slider" alt="work picture" />
             </div>
             <div>
-              <img src={pathfinding} className="pathfinding-slider" alt="Pathfinding" />
+              <img src={brownie} className="image-slider" alt="brownie making picture" />
             </div>
           </Carousel>
         </div>

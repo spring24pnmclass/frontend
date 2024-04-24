@@ -19,8 +19,8 @@
 /* Title styles */
 .title {
     font-size: 30px; 
-    margin-top: 40px;
-    margin-bottom: 10px; 
+    margin-top: 5%;
+    margin-bottom: 10%; 
 }
 
 /* Common box styles */
@@ -170,35 +170,14 @@
 }
 
 .image-slider {
-    max-width: 45vh;
-    max-height: 60vh;
+    max-width: 75vh;
+    max-height: 75vh;
     display: block;
 }
 
-.frontend-slider {
-    max-width: 45vh;
-    max-height: 60vh; 
-}
-
-.pathfinding-slider {
-    max-width: 65vh;
-    max-height: 100vh;
-    
-}
-
-.electrical-slider {
-    max-width: 45vh;
-    max-height: 60vh; 
-}
-
-.hardware-slider {
-    max-width: 45vh;
-    max-height: 60vh; 
-}
-
 .carousel-container {
-    max-width: 45vh; /* Set the maximum width of the carousel */
+    max-width: 75vh; /* Set the maximum width of the carousel */
     margin: 0 auto; /* Center the carousel horizontally */
-    margin-bottom: 45px;
+    margin-bottom: 7%;
     margin-top: 50px;
 }
