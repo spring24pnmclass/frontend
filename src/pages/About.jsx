@@ -13,7 +13,7 @@ import brownie from "/src/assets/brownie_pic.jpg";
 import pho from "/src/assets/pho_mai.jpg";
 import rohith from "/src/assets/rohith_selfie.jpg";
 import work from "/src/assets/work_pic.jpg";
-import robot from "/src/assets/robot-photo.png";
+import robot from "/src/assets/robot-pic.png";
 
 export const About = () => {
   // Slider settings
