@@ -14,7 +14,7 @@ const BannerComponent = () => {
           <div className="banner-text">
             <h2>Revolutionize food delivery, <br></br>one robot at a time. </h2>
             <p>We fundamentally believe that college students should have access to food, and through our autonomous food delivery robot, we will bring food to students!</p>          
-            <Link to="/login">
+            <Link to="/order">
               <button className="button">
                 <p>Order</p>
               </button>
