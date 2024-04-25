@@ -11,7 +11,7 @@
     text-align: center;
     align-items: center; 
     flex-direction: column;
-    padding-top: 30px;
+    margin-top: -8%;
     color: #374375;
     background-color: #fdfbf5;
 }
@@ -19,7 +19,7 @@
 /* Title styles */
 .title {
     font-size: 30px; 
-    margin-top: 5%;
+    margin-top: -5%;
     margin-bottom: 5%; 
 }
 
@@ -29,7 +29,7 @@
 /* For objective & Purpose Box */
 .horizontal-box {
     padding: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 20px; /* Decrease top margin */
     width: 40%;
     text-align: left;
@@ -159,10 +159,11 @@
 
 .objective-purpose {
     padding: auto 0x;
-    margin-top: 0px;
+    margin-top: -3%;
     margin-left: auto;
     margin-right: auto;
     width: 55%;
+
     text-align: center;
     border-radius: 10px;
     color: #374375;

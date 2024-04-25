@@ -41,6 +41,8 @@ export const About = () => {
 
         <div className="robot-image">
           <img src={robot} alt="Robot Pic" className="robot-image" />
+          <div class="caption">(Our Product)</div>
+
         </div>
                       
         {/* Horizontal line */}
