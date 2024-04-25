@@ -21,10 +21,10 @@
 | Create UML Sequence Diagram for interactions   | Wednesday (3/13) | Done        |
 | Design website mockups on Figma                | Wednesday (3/13) | Done        |
 | Distribute pages                               | Wednesday (3/13) | Done        |
-| Create ReactJS Application                     | Friday    (3/15) | In Progress |
-| Add all components onto GitHub                 | Monday    (4/15) | In Progress |
-| Polish website for consistency                 | Friday    (4/19) | In Progress |
-| Deploy on Vercel                               | TBD              | TBD         |
+| Create ReactJS Application                     | Friday    (3/15) | Done        |
+| Add all components onto GitHub                 | Monday    (4/15) | Done        |
+| Polish website for consistency                 | Friday    (4/19) | Done        |
+| Deploy on Vercel                               | Future Imp.      | Future Imp. |
 
 ## Libraries <a name="libraries"></a>
 
