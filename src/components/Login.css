@@ -27,7 +27,6 @@ body, html {
   justify-content: center;
   width: 100%;
   height: calc(90vh - 20px); /* Adjusted height to make the page longer */
-  /* margin-top: 200%; */ /* Adjust or remove this line */
   
 }
 

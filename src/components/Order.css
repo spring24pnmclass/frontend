@@ -63,7 +63,7 @@ body {
     background-color: #fdfbf5 !important; /* Set the background color for the entire page */
 }
 
-#root > div > div.description-box > h2 
+.description-box h2 
 {
     font-size: 15px; /* Decrease font size for paragraph */
     line-height: 1.4; /* Increase line spacing */

@@ -83,7 +83,7 @@
     width: 55%;
 
 }
-#content > div.title > h2 {
+.title h2 {
     font-family: 'Times New Roman', sans-serif;
     color: #374375;
     font-size: 50px; /* Decrease font size for shorter letters */
@@ -94,14 +94,14 @@
 
 }
 
-#content > div.objective-purpose > p {
+.objective-purpose  p {
    font-size: 17px; /* Decrease font size for paragraph */
     line-height: 1.4; /* Increase line spacing */
     color: #60626a;
     font-family: Apercu, -apple-system, 'BlinkMacSystemFont', Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-#content > div.powered-by > h2 {
+.powered-by h2 {
     font-size: 50px; /* Increase font size for heading */
     font-family: "Times New Roman", Times, serif;
     color:#374375;
