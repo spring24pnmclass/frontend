@@ -30,6 +30,7 @@
 
 - [React](https://react.dev/)
 - [Google Maps React Collection](https://visgl.github.io/react-google-maps/)
+- [NavLink](https://reactrouter.com/en/main/components/nav-link)
 - [Location Page Demostration](https://youtu.be/yt_Encgd2Z8)
 
 ## Resources <a name="resources"></a>
