@@ -29,6 +29,8 @@
 ## Libraries <a name="libraries"></a>
 
 - [React](https://react.dev/)
+- [Google Maps React Collection](https://visgl.github.io/react-google-maps/)
+- [Location Page Demostration](https://youtu.be/yt_Encgd2Z8)
 
 ## Resources <a name="resources"></a>
 - [React Set-Up Tutorial](https://www.youtube.com/watch?v=Kum8fPPrt-E&t=319s)
