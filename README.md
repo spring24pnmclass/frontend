@@ -21,14 +21,17 @@
 | Create UML Sequence Diagram for interactions   | Wednesday (3/13) | Done        |
 | Design website mockups on Figma                | Wednesday (3/13) | Done        |
 | Distribute pages                               | Wednesday (3/13) | Done        |
-| Create ReactJS Application                     | Friday    (3/15) | In Progress |
-| Add all components onto GitHub                 | Monday    (4/15) | In Progress |
-| Polish website for consistency                 | Friday    (4/19) | In Progress |
-| Deploy on Vercel                               | TBD              | TBD         |
+| Create ReactJS Application                     | Friday    (3/15) | Done        |
+| Add all components onto GitHub                 | Monday    (4/15) | Done        |
+| Polish website for consistency                 | Friday    (4/19) | Done        |
+| Deploy on Vercel                               | Future Imp.      | Future Imp. |
 
 ## Libraries <a name="libraries"></a>
 
 - [React](https://react.dev/)
+- [Google Maps React Collection](https://visgl.github.io/react-google-maps/)
+- [NavLink](https://reactrouter.com/en/main/components/nav-link)
+- [Location Page Demostration](https://youtu.be/yt_Encgd2Z8)
 
 ## Resources <a name="resources"></a>
 - [React Set-Up Tutorial](https://www.youtube.com/watch?v=Kum8fPPrt-E&t=319s)
