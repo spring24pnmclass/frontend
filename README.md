@@ -2,7 +2,7 @@
 # Table of Contents
 1. [Team Members](#team-members)
 2. [Current Tasks](#current-tasks)
-3. [Libraries](#libraries)
+3. [Demonstration](#demonstration)
 4. [Resources](#resources)
 5. [Git Branching](#git-branching)
 
@@ -24,17 +24,18 @@
 | Create ReactJS Application                     | Friday    (3/15) | Done        |
 | Add all components onto GitHub                 | Monday    (4/15) | Done        |
 | Polish website for consistency                 | Friday    (4/19) | Done        |
-| Deploy on Vercel                               | Future Imp.      | Future Imp. |
 
-## Libraries <a name="libraries"></a>
-
-- [React](https://react.dev/)
-- [Google Maps React Collection](https://visgl.github.io/react-google-maps/)
-- [NavLink](https://reactrouter.com/en/main/components/nav-link)
+## Demos <a name="demonstration"></a>
 - [Location Page Demostration](https://youtu.be/yt_Encgd2Z8)
 
+
 ## Resources <a name="resources"></a>
+- [React](https://react.dev/)
 - [React Set-Up Tutorial](https://www.youtube.com/watch?v=Kum8fPPrt-E&t=319s)
+- [Google Maps React Collection](https://visgl.github.io/react-google-maps/)
+- [NavLink](https://reactrouter.com/en/main/components/nav-link)
+- [Banner Component](https://www.youtube.com/watch?v=I4LRs_blKdI)
+- [Photo Carousel](https://browsee.io/blog/creating-a-carousel-in-reactjs/)
 
 ## Git Branching <a name="git-branching"></a>
 
